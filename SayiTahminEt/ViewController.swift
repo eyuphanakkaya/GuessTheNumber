@@ -8,12 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+   
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
-
+    @IBAction func oyunBaslaTiklandi(_ sender: Any) {
+        performSegue(withIdentifier: "toTahminVC", sender: nil)
+    }
+    
 }
 

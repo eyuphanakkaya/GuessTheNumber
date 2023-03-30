@@ -13,6 +13,8 @@
 		A4038E6629D5717200F79313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4038E6429D5717200F79313 /* Main.storyboard */; };
 		A4038E6829D5717300F79313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4038E6729D5717300F79313 /* Assets.xcassets */; };
 		A4038E6B29D5717300F79313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4038E6929D5717300F79313 /* LaunchScreen.storyboard */; };
+		A4038E7329D5759300F79313 /* TahminEtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4038E7229D5759300F79313 /* TahminEtVC.swift */; };
+		A4038E7529D575A600F79313 /* SonucVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4038E7429D575A600F79313 /* SonucVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A4038E6729D5717300F79313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4038E6A29D5717300F79313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4038E6C29D5717300F79313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4038E7229D5759300F79313 /* TahminEtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahminEtVC.swift; sourceTree = "<group>"; };
+		A4038E7429D575A600F79313 /* SonucVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				A4038E5E29D5717200F79313 /* AppDelegate.swift */,
 				A4038E6029D5717200F79313 /* SceneDelegate.swift */,
 				A4038E6229D5717200F79313 /* ViewController.swift */,
+				A4038E7229D5759300F79313 /* TahminEtVC.swift */,
+				A4038E7429D575A600F79313 /* SonucVC.swift */,
 				A4038E6429D5717200F79313 /* Main.storyboard */,
 				A4038E6729D5717300F79313 /* Assets.xcassets */,
 				A4038E6929D5717300F79313 /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4038E7529D575A600F79313 /* SonucVC.swift in Sources */,
 				A4038E6329D5717200F79313 /* ViewController.swift in Sources */,
 				A4038E5F29D5717200F79313 /* AppDelegate.swift in Sources */,
+				A4038E7329D5759300F79313 /* TahminEtVC.swift in Sources */,
 				A4038E6129D5717200F79313 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
